@@ -1,0 +1,305 @@
+INFO 2025-03-20 01:55:46,635 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:55:49,376 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\settings.py changed, reloading.
+INFO 2025-03-20 01:55:49,922 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:56:10,095 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py changed, reloading.
+INFO 2025-03-20 01:56:10,634 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:56:36,219 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:56:54,570 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:57:17,916 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:57:26,315 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:57:35,383 basehttp "GET /api/health-check HTTP/1.1" 200 45
+ERROR 2025-03-20 01:57:37,416 errors unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 121, in run
+    return self._result_to_response(request, result, temporal_response)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 237, in _result_to_response
+    if status in self.response_models:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR 2025-03-20 01:57:37,418 log Internal Server Error: /api/auth/register
+ERROR 2025-03-20 01:57:37,419 basehttp "POST /api/auth/register HTTP/1.1" 500 547
+INFO 2025-03-20 01:57:40,434 basehttp "POST /api/auth/login HTTP/1.1" 200 232
+ERROR 2025-03-20 01:57:42,448 errors 'WSGIRequest' object has no attribute 'auth'
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 120, in run
+    result = self.view_func(request, **values)
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py", line 131, in get_user
+    user_id = request.auth
+              ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'auth'
+ERROR 2025-03-20 01:57:42,450 log Internal Server Error: /api/auth/user
+ERROR 2025-03-20 01:57:42,450 basehttp "GET /api/auth/user HTTP/1.1" 500 428
+INFO 2025-03-20 01:58:51,657 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\api.py changed, reloading.
+INFO 2025-03-20 01:58:52,224 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:58:55,972 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\api.py changed, reloading.
+INFO 2025-03-20 01:58:56,565 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 01:59:19,751 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\api.py changed, reloading.
+INFO 2025-03-20 01:59:20,584 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:00:46,716 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\settings.py changed, reloading.
+INFO 2025-03-20 02:00:47,278 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:00:53,058 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\settings.py changed, reloading.
+INFO 2025-03-20 02:00:53,616 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:01:07,725 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py changed, reloading.
+INFO 2025-03-20 02:01:08,300 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:01:33,577 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\api.py changed, reloading.
+INFO 2025-03-20 02:01:34,133 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:02:34,510 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\api.py changed, reloading.
+INFO 2025-03-20 02:02:35,137 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:02:50,605 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:02:57,806 basehttp "GET /api/health-check HTTP/1.1" 200 45
+WARNING 2025-03-20 02:02:59,825 log Unauthorized: /api/auth/register
+WARNING 2025-03-20 02:02:59,825 basehttp "POST /api/auth/register HTTP/1.1" 401 26
+WARNING 2025-03-20 02:03:01,855 log Unauthorized: /api/auth/login
+WARNING 2025-03-20 02:03:01,856 basehttp "POST /api/auth/login HTTP/1.1" 401 26
+INFO 2025-03-20 02:04:09,496 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\api.py changed, reloading.
+INFO 2025-03-20 02:04:10,038 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:04:30,410 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:04:39,706 basehttp "GET /api/health-check HTTP/1.1" 200 45
+DEBUG 2025-03-20 02:04:41,731 auth Register attempt for username: testuser
+WARNING 2025-03-20 02:04:41,733 auth Username already exists: testuser
+ERROR 2025-03-20 02:04:41,733 api Unhandled exception: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 121, in run
+    return self._result_to_response(request, result, temporal_response)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 237, in _result_to_response
+    if status in self.response_models:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR 2025-03-20 02:04:41,734 log Internal Server Error: /api/auth/register
+ERROR 2025-03-20 02:04:41,735 basehttp "POST /api/auth/register HTTP/1.1" 500 81
+DEBUG 2025-03-20 02:04:43,756 auth Login attempt for username: testuser
+INFO 2025-03-20 02:04:44,750 auth User logged in successfully: 1
+INFO 2025-03-20 02:04:44,751 basehttp "POST /api/auth/login HTTP/1.1" 200 232
+ERROR 2025-03-20 02:04:48,777 api Unhandled exception: 'WSGIRequest' object has no attribute 'auth'
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 120, in run
+    result = self.view_func(request, **values)
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py", line 152, in get_user
+    logger.debug(f"Get user profile, auth: {request.auth}, user_id param: {user_id}")
+                                            ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'auth'
+ERROR 2025-03-20 02:04:48,779 log Internal Server Error: /api/auth/user
+ERROR 2025-03-20 02:04:48,779 basehttp "GET /api/auth/user HTTP/1.1" 500 102
+DEBUG 2025-03-20 02:04:51,800 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:04:51,801 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:04:51,806 basehttp "POST /api/tasks/categories/ HTTP/1.1" 200 58
+DEBUG 2025-03-20 02:04:54,818 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:04:54,818 api Authentication successful for user_id: 1
+ERROR 2025-03-20 02:04:54,826 api Unhandled exception: 2 validation errors for NinjaResponseSchema
+response.created_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+response.updated_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 121, in run
+    return self._result_to_response(request, result, temporal_response)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 260, in _result_to_response
+    validated_object = response_model.model_validate(
+        resp_object, context={"request": request, "response_status": status}
+    )
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\pydantic\main.py", line 627, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj, strict=strict, from_attributes=from_attributes, context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for NinjaResponseSchema
+response.created_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+response.updated_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+ERROR 2025-03-20 02:04:54,827 log Internal Server Error: /api/tasks/
+ERROR 2025-03-20 02:04:54,828 basehttp "POST /api/tasks/ HTTP/1.1" 500 729
+DEBUG 2025-03-20 02:04:57,853 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:04:57,853 api Authentication successful for user_id: 1
+ERROR 2025-03-20 02:04:57,859 api Unhandled exception: 2 validation errors for NinjaResponseSchema
+response.0.created_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+response.0.updated_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 121, in run
+    return self._result_to_response(request, result, temporal_response)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 260, in _result_to_response
+    validated_object = response_model.model_validate(
+        resp_object, context={"request": request, "response_status": status}
+    )
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\pydantic\main.py", line 627, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj, strict=strict, from_attributes=from_attributes, context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for NinjaResponseSchema
+response.0.created_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+response.0.updated_at
+  Datetimes provided to dates should have zero time - e.g. be exact dates [type=date_from_datetime_inexact, input_value=datetime.datetime(2025, 3...o=datetime.timezone.utc), input_type=datetime]
+    For further information visit https://errors.pydantic.dev/2.10/v/date_from_datetime_inexact
+ERROR 2025-03-20 02:04:57,860 log Internal Server Error: /api/tasks/
+ERROR 2025-03-20 02:04:57,861 basehttp "GET /api/tasks/ HTTP/1.1" 500 733
+DEBUG 2025-03-20 02:05:00,891 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:05:00,891 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:05:00,929 basehttp "POST /api/pomodoro/start HTTP/1.1" 200 176
+DEBUG 2025-03-20 02:05:03,958 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:05:03,958 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:05:03,964 basehttp "PUT /api/pomodoro/1/complete HTTP/1.1" 200 197
+DEBUG 2025-03-20 02:05:06,990 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:05:06,990 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:05:07,059 basehttp "GET /api/analytics/dashboard?days=30 HTTP/1.1" 200 2515
+INFO 2025-03-20 02:07:49,608 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py changed, reloading.
+INFO 2025-03-20 02:07:50,183 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:07:58,194 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py changed, reloading.
+INFO 2025-03-20 02:07:58,822 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:08:08,852 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\tasks.py changed, reloading.
+INFO 2025-03-20 02:08:09,461 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:08:36,300 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:08:51,652 basehttp "GET /api/health-check HTTP/1.1" 200 45
+DEBUG 2025-03-20 02:08:53,678 auth Register attempt for username: testuser
+WARNING 2025-03-20 02:08:53,681 auth Username already exists: testuser
+ERROR 2025-03-20 02:08:53,681 api Unhandled exception: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 121, in run
+    return self._result_to_response(request, result, temporal_response)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 237, in _result_to_response
+    if status in self.response_models:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR 2025-03-20 02:08:53,682 log Internal Server Error: /api/auth/register
+ERROR 2025-03-20 02:08:53,683 basehttp "POST /api/auth/register HTTP/1.1" 500 81
+DEBUG 2025-03-20 02:08:55,714 auth Login attempt for username: testuser
+INFO 2025-03-20 02:08:56,726 auth User logged in successfully: 1
+INFO 2025-03-20 02:08:56,727 basehttp "POST /api/auth/login HTTP/1.1" 200 232
+DEBUG 2025-03-20 02:09:00,774 auth Get user profile, authorization header: Bearer eyJhbGciOiJIU
+DEBUG 2025-03-20 02:09:00,774 auth Looking up user with ID: 1
+INFO 2025-03-20 02:09:00,777 auth User profile retrieved: 1
+INFO 2025-03-20 02:09:00,777 basehttp "GET /api/auth/user HTTP/1.1" 200 148
+DEBUG 2025-03-20 02:09:03,794 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:09:03,795 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:09:03,798 basehttp "POST /api/tasks/categories/ HTTP/1.1" 200 58
+DEBUG 2025-03-20 02:09:06,837 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:09:06,837 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:09:06,842 basehttp "POST /api/tasks/ HTTP/1.1" 200 418
+DEBUG 2025-03-20 02:09:09,858 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:09:09,859 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:09:09,863 basehttp "GET /api/tasks/ HTTP/1.1" 200 840
+DEBUG 2025-03-20 02:09:12,896 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:09:12,896 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:09:12,905 basehttp "POST /api/pomodoro/start HTTP/1.1" 200 195
+DEBUG 2025-03-20 02:09:15,937 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:09:15,937 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:09:15,942 basehttp "PUT /api/pomodoro/2/complete HTTP/1.1" 200 216
+DEBUG 2025-03-20 02:09:18,966 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:09:18,966 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:09:19,033 basehttp "GET /api/analytics/dashboard?days=30 HTTP/1.1" 200 2515
+INFO 2025-03-20 02:10:34,286 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py changed, reloading.
+INFO 2025-03-20 02:10:34,840 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:10:41,841 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:10:50,703 basehttp "GET /api/health-check HTTP/1.1" 200 45
+DEBUG 2025-03-20 02:10:52,722 auth Register attempt for username: testuser
+WARNING 2025-03-20 02:10:52,725 auth Username already exists: testuser
+ERROR 2025-03-20 02:10:52,725 api Unhandled exception: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 121, in run
+    return self._result_to_response(request, result, temporal_response)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Code_Projects\Python\pomodoro-todolist\backend\.venv\Lib\site-packages\ninja\operation.py", line 237, in _result_to_response
+    if status in self.response_models:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR 2025-03-20 02:10:52,727 log Internal Server Error: /api/auth/register
+ERROR 2025-03-20 02:10:52,727 basehttp "POST /api/auth/register HTTP/1.1" 500 81
+DEBUG 2025-03-20 02:10:54,756 auth Login attempt for username: testuser
+INFO 2025-03-20 02:10:55,763 auth User logged in successfully: 1
+INFO 2025-03-20 02:10:55,764 basehttp "POST /api/auth/login HTTP/1.1" 200 232
+DEBUG 2025-03-20 02:10:59,796 auth Get user profile, authorization header: Bearer eyJhbGciOiJIU
+DEBUG 2025-03-20 02:10:59,797 auth Looking up user with ID: 1
+INFO 2025-03-20 02:10:59,799 auth User profile retrieved: 1
+INFO 2025-03-20 02:10:59,799 basehttp "GET /api/auth/user HTTP/1.1" 200 148
+DEBUG 2025-03-20 02:11:02,829 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:11:02,829 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:11:02,834 basehttp "POST /api/tasks/categories/ HTTP/1.1" 200 58
+DEBUG 2025-03-20 02:11:05,857 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:11:05,858 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:11:05,863 basehttp "POST /api/tasks/ HTTP/1.1" 200 418
+DEBUG 2025-03-20 02:11:08,888 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:11:08,888 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:11:08,893 basehttp "GET /api/tasks/ HTTP/1.1" 200 1260
+DEBUG 2025-03-20 02:11:11,922 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:11:11,922 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:11:11,932 basehttp "POST /api/pomodoro/start HTTP/1.1" 200 195
+DEBUG 2025-03-20 02:11:14,970 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:11:14,971 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:11:14,976 basehttp "PUT /api/pomodoro/3/complete HTTP/1.1" 200 216
+DEBUG 2025-03-20 02:11:17,995 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:11:17,995 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:11:18,062 basehttp "GET /api/analytics/dashboard?days=30 HTTP/1.1" 200 2515
+INFO 2025-03-20 02:13:38,619 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\auth.py changed, reloading.
+INFO 2025-03-20 02:13:39,193 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:14:37,531 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\routers\pomodoro.py changed, reloading.
+INFO 2025-03-20 02:14:38,076 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:14:42,752 autoreload Watching for file changes with StatReloader
+INFO 2025-03-20 02:15:22,330 basehttp "GET /api/health-check HTTP/1.1" 200 45
+DEBUG 2025-03-20 02:15:24,357 auth Register attempt for username: testuser
+WARNING 2025-03-20 02:15:24,359 auth Username already exists: testuser
+WARNING 2025-03-20 02:15:24,360 log Bad Request: /api/auth/register
+WARNING 2025-03-20 02:15:24,360 basehttp "POST /api/auth/register HTTP/1.1" 400 62
+DEBUG 2025-03-20 02:15:26,376 auth Login attempt for username: testuser
+INFO 2025-03-20 02:15:27,357 auth User logged in successfully: 1
+INFO 2025-03-20 02:15:27,358 basehttp "POST /api/auth/login HTTP/1.1" 200 232
+DEBUG 2025-03-20 02:15:31,380 auth Get user profile, authorization header: Bearer eyJhbGciOiJIU
+DEBUG 2025-03-20 02:15:31,380 auth Looking up user with ID: 1
+INFO 2025-03-20 02:15:31,383 auth User profile retrieved: 1
+INFO 2025-03-20 02:15:31,384 basehttp "GET /api/auth/user HTTP/1.1" 200 148
+DEBUG 2025-03-20 02:15:34,413 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:15:34,413 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:15:34,417 basehttp "POST /api/tasks/categories/ HTTP/1.1" 200 58
+DEBUG 2025-03-20 02:15:37,437 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:15:37,437 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:15:37,442 basehttp "POST /api/tasks/ HTTP/1.1" 200 418
+DEBUG 2025-03-20 02:15:40,467 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:15:40,468 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:15:40,479 basehttp "GET /api/tasks/ HTTP/1.1" 200 1680
+DEBUG 2025-03-20 02:15:43,512 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:15:43,512 api Authentication successful for user_id: 1
+DEBUG 2025-03-20 02:15:43,513 pomodoro Start pomodoro session, task_id: 4, type: work
+INFO 2025-03-20 02:15:43,517 basehttp "POST /api/pomodoro/start HTTP/1.1" 200 196
+DEBUG 2025-03-20 02:15:46,549 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:15:46,550 api Authentication successful for user_id: 1
+DEBUG 2025-03-20 02:15:46,550 pomodoro Complete pomodoro session: 4
+INFO 2025-03-20 02:15:46,564 basehttp "PUT /api/pomodoro/4/complete HTTP/1.1" 200 222
+DEBUG 2025-03-20 02:15:49,598 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:15:49,598 api Authentication successful for user_id: 1
+INFO 2025-03-20 02:15:49,689 basehttp "GET /api/analytics/dashboard?days=30 HTTP/1.1" 200 2515
+DEBUG 2025-03-20 02:39:32,525 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:39:32,525 api Authentication successful for user_id: 1
+DEBUG 2025-03-20 02:39:44,873 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:39:44,874 api Authentication successful for user_id: 1
+DEBUG 2025-03-20 02:40:54,200 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:40:54,201 api Authentication successful for user_id: 1
+DEBUG 2025-03-20 02:46:01,506 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:46:01,506 api Authentication successful for user_id: 1
+DEBUG 2025-03-20 02:46:02,539 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:46:02,539 api Authentication successful for user_id: 2
+DEBUG 2025-03-20 02:46:03,562 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:46:03,563 api Authentication successful for user_id: 3
+DEBUG 2025-03-20 02:46:04,585 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:46:04,585 api Authentication successful for user_id: 4
+DEBUG 2025-03-20 02:46:05,613 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:46:05,614 api Authentication successful for user_id: 5
+DEBUG 2025-03-20 02:46:06,624 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-20 02:46:06,624 api Authentication successful for user_id: 6
