@@ -303,3 +303,29 @@ DEBUG 2025-03-20 02:46:05,613 api Authenticating token: eyJhbGciOi...
 DEBUG 2025-03-20 02:46:05,614 api Authentication successful for user_id: 5
 DEBUG 2025-03-20 02:46:06,624 api Authenticating token: eyJhbGciOi...
 DEBUG 2025-03-20 02:46:06,624 api Authentication successful for user_id: 6
+INFO 2025-03-23 22:16:14,853 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-23 22:16:18,012 log Not Found: /
+WARNING 2025-03-23 22:16:18,012 basehttp "GET / HTTP/1.1" 404 2310
+WARNING 2025-03-23 22:16:18,336 log Not Found: /favicon.ico
+WARNING 2025-03-23 22:16:18,336 basehttp "GET /favicon.ico HTTP/1.1" 404 2361
+INFO 2025-03-23 22:16:21,350 basehttp "GET /api/docs HTTP/1.1" 200 994
+INFO 2025-03-23 22:16:21,677 basehttp "GET /api/openapi.json HTTP/1.1" 200 31380
+INFO 2025-03-23 22:16:27,084 basehttp "GET /api/openapi.json HTTP/1.1" 200 31380
+INFO 2025-03-23 22:18:48,375 basehttp "GET /api/openapi.json HTTP/1.1" 200 31380
+INFO 2025-03-23 22:19:15,891 basehttp "GET /api/openapi.json HTTP/1.1" 200 31380
+INFO 2025-03-23 23:59:06,283 autoreload Watching for file changes with StatReloader
+INFO 2025-03-23 23:59:17,946 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 00:11:41,392 autoreload D:\Code_Projects\Python\pomodoro-todolist\backend\pomodoro_api\urls.py changed, reloading.
+INFO 2025-03-24 00:11:42,433 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 00:19:06,282 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 00:19:17,434 autoreload Watching for file changes with StatReloader
+INFO 2025-03-24 00:24:22,331 basehttp "GET /api/docs HTTP/1.1" 200 994
+INFO 2025-03-24 00:24:23,160 basehttp "GET /api/openapi.json HTTP/1.1" 200 31380
+INFO 2025-03-24 00:24:28,397 basehttp "GET /api/health-check HTTP/1.1" 200 45
+INFO 2025-03-24 00:24:42,681 basehttp "GET /api/debug HTTP/1.1" 200 948
+DEBUG 2025-03-24 00:24:57,722 auth Register attempt for username: string
+WARNING 2025-03-24 00:24:57,744 auth Password validation failed: 此密碼過短。請至少使用 8 個字元。
+WARNING 2025-03-24 00:24:57,744 log Bad Request: /api/auth/register
+WARNING 2025-03-24 00:24:57,745 basehttp "POST /api/auth/register HTTP/1.1" 400 107
+INFO 2025-03-24 00:33:43,793 basehttp "GET /api/docs HTTP/1.1" 200 994
+INFO 2025-03-24 00:33:44,085 basehttp "GET /api/openapi.json HTTP/1.1" 200 31380
