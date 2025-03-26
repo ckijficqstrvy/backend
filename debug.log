@@ -554,3 +554,92 @@ DEBUG 2025-03-27 00:59:24,433 api Authentication successful for user_id: 2
 DEBUG 2025-03-27 00:59:24,435 pomodoro Get pomodoro history, days: 7, task_id: None
 INFO 2025-03-27 00:59:24,440 basehttp "GET /api/tasks/?status=in_progress HTTP/1.1" 200 2
 INFO 2025-03-27 00:59:24,443 basehttp "GET /api/pomodoro/history?days=7 HTTP/1.1" 200 179
+DEBUG 2025-03-27 01:09:45,156 auth Get user profile, authorization header: Bearer eyJhbGciOiJIU
+DEBUG 2025-03-27 01:09:45,156 auth Looking up user with ID: 2
+INFO 2025-03-27 01:09:45,161 auth User profile retrieved: 2
+INFO 2025-03-27 01:09:45,161 basehttp "GET /api/auth/user HTTP/1.1" 200 158
+DEBUG 2025-03-27 01:09:45,163 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:45,163 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:09:45,167 basehttp "GET /api/tasks/?status=in_progress HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:09:45,176 auth Get user settings, authorization header: Bearer eyJhbGciOiJIU
+INFO 2025-03-27 01:09:45,179 auth User settings retrieved: 2
+INFO 2025-03-27 01:09:45,180 basehttp "GET /api/auth/settings HTTP/1.1" 200 137
+DEBUG 2025-03-27 01:09:47,613 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:47,614 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:47,614 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:09:47,615 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:09:47,616 pomodoro Get pomodoro history, days: 7, task_id: None
+INFO 2025-03-27 01:09:47,619 basehttp "GET /api/tasks/?status=in_progress HTTP/1.1" 200 2
+INFO 2025-03-27 01:09:47,621 basehttp "GET /api/pomodoro/history?days=7 HTTP/1.1" 200 179
+DEBUG 2025-03-27 01:09:48,199 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:48,203 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:09:48,233 basehttp "POST /api/analytics/date-range HTTP/1.1" 200 931
+DEBUG 2025-03-27 01:09:51,305 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:51,306 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:09:51,374 basehttp "POST /api/analytics/date-range HTTP/1.1" 200 2443
+DEBUG 2025-03-27 01:09:51,875 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:51,875 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:09:52,546 basehttp "GET /api/analytics/dashboard?days=365 HTTP/1.1" 200 26635
+DEBUG 2025-03-27 01:09:53,165 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:53,165 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:09:53,178 basehttp "GET /api/analytics/dashboard?days=1 HTTP/1.1" 200 427
+DEBUG 2025-03-27 01:09:59,336 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:59,336 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:09:59,338 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:09:59,339 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:09:59,340 pomodoro Get pomodoro history, days: 7, task_id: None
+INFO 2025-03-27 01:09:59,342 basehttp "GET /api/tasks/?status=in_progress HTTP/1.1" 200 2
+INFO 2025-03-27 01:09:59,345 basehttp "GET /api/pomodoro/history?days=7 HTTP/1.1" 200 179
+DEBUG 2025-03-27 01:10:00,641 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:00,641 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:10:00,647 basehttp "GET /api/tasks/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:10:00,652 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:00,653 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:00,653 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:10:00,653 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:10:00,657 basehttp "GET /api/tasks/tags/ HTTP/1.1" 200 2
+INFO 2025-03-27 01:10:00,657 basehttp "GET /api/tasks/categories/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:10:02,917 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:02,917 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:10:02,921 basehttp "GET /api/tasks/?status=in_progress HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:10:03,616 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:03,617 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:10:03,620 basehttp "GET /api/tasks/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:10:03,628 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:03,629 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:10:03,629 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:10:03,629 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:10:03,633 basehttp "GET /api/tasks/categories/ HTTP/1.1" 200 2
+INFO 2025-03-27 01:10:03,633 basehttp "GET /api/tasks/tags/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:12:53,963 auth Get user profile, authorization header: Bearer eyJhbGciOiJIU
+DEBUG 2025-03-27 01:12:53,964 auth Looking up user with ID: 2
+INFO 2025-03-27 01:12:53,967 auth User profile retrieved: 2
+INFO 2025-03-27 01:12:53,968 basehttp "GET /api/auth/user HTTP/1.1" 200 158
+DEBUG 2025-03-27 01:12:54,042 auth Get user settings, authorization header: Bearer eyJhbGciOiJIU
+INFO 2025-03-27 01:12:54,046 auth User settings retrieved: 2
+INFO 2025-03-27 01:12:54,047 basehttp "GET /api/auth/settings HTTP/1.1" 200 137
+DEBUG 2025-03-27 01:12:54,134 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:12:54,136 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:12:54,143 basehttp "GET /api/tasks/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:12:54,160 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:12:54,161 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:12:54,162 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:12:54,161 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:12:54,168 basehttp "GET /api/tasks/tags/ HTTP/1.1" 200 2
+INFO 2025-03-27 01:12:54,170 basehttp "GET /api/tasks/categories/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:13:27,696 auth Get user profile, authorization header: Bearer eyJhbGciOiJIU
+DEBUG 2025-03-27 01:13:27,696 auth Looking up user with ID: 2
+INFO 2025-03-27 01:13:27,702 auth User profile retrieved: 2
+INFO 2025-03-27 01:13:27,703 basehttp "GET /api/auth/user HTTP/1.1" 200 158
+DEBUG 2025-03-27 01:13:27,744 auth Get user settings, authorization header: Bearer eyJhbGciOiJIU
+INFO 2025-03-27 01:13:27,748 auth User settings retrieved: 2
+INFO 2025-03-27 01:13:27,749 basehttp "GET /api/auth/settings HTTP/1.1" 200 137
+DEBUG 2025-03-27 01:13:27,783 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:13:27,783 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:13:27,788 basehttp "GET /api/tasks/ HTTP/1.1" 200 2
+DEBUG 2025-03-27 01:13:27,796 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:13:27,797 api Authenticating token: eyJhbGciOi...
+DEBUG 2025-03-27 01:13:27,797 api Authentication successful for user_id: 2
+DEBUG 2025-03-27 01:13:27,797 api Authentication successful for user_id: 2
+INFO 2025-03-27 01:13:27,801 basehttp "GET /api/tasks/categories/ HTTP/1.1" 200 2
+INFO 2025-03-27 01:13:27,802 basehttp "GET /api/tasks/tags/ HTTP/1.1" 200 2
